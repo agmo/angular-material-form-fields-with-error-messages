@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { GetErrorMessageComponent } from './get-error-message/get-error-message.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GetErrorMessageComponent
   ],
   imports: [
     BrowserModule,
