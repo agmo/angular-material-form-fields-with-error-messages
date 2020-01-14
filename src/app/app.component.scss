@@ -1,0 +1,13 @@
+main {
+  padding: 24px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.example-container > * {
+  width: 100%;
+}
